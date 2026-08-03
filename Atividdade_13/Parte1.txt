@@ -1,0 +1,37 @@
+Parte 1 — Fundamentos (01 - Dispositivos Móveis)
+
+
+
+								Diferenca de arquiteturas:
+
+Desenvolvimento Nativo: Sao desenvolvimentos nativos para um programa em especifico, que permite uma acesso maior aos arquivos dos programas. Dessa forma, se tem a criacao de um aplicativo exclusivo e de um SDK (Software Development Kit)  para cada plataforma. Se tem dois grandes exemplos de programas que usam desenvolvimento nativo, sendo o IOS e o Android, na qual, o Android usa a linguagem Kotlin e Java, enquanto o IOS usa a linguagem Swift ou Objective-C.
+
+
+Cross-Plataform/Hibrido: se tem o uso de somente um Codigo-fonte, qual eh adaptado para diferentes plataformas/programas. No caso do Flutter, nao se tem o uso de widgets nativos, ou seja a sua interface eh feita a partir de uma engine grafica, para que se tenha o mesmo resultado de grafico em quaisquer plataformas.
+
+
+
+
+									StatelessWidget e StatefulWidget (Diferencas)
+
+
+StatelessWidget: é uma parte da UI em que nao se ha quaisquer mudancas apos ser feita, a menos que seja reconstruida. Dessa forma, nao se eh guardado nenhum dado que possa ser mutavel. Um bom exemplo de uso eh em relacao eh em uma tela que inclui "Termos de uso" ou "Sobre o App", na qual, os textos que ali estao sao fixos e a tela nao reage de acordo com o usuario.
+
+
+StatefullWidget: Este widget possui um State associado, na qual pode guardar dados que podem acabar mudando com o tempo em que se eh usado, sendo um exemplo um botao que possui funcoes que condiz se esta marcado ou nao. Quando algum dado eh mudado, se eh chamado o setState(), sendo usado para poder reter os valores atualizados. Um exemplo de uso seria um formulario de cadastro, qual pode ter seus dados atualizados com frequencia.
+
+
+		
+ 		Árvore de Widgets (Widget Tree): O que acontece por baixo dos panos quando chamamos o método setState() dentro de um StatefulWidget ?
+
+										
+
+Quando o metodo setState eh chamado, acontece os seguintes passos:
+
+1-) O código dentro do setState() eh  executado imediatamente, atualizando as variáveis internas do State.
+
+2-) O Flutter marca aquele Element (o nó correspondente na árvore de elementos) como algo desatualizado.
+
+3-) No próximo ciclo de renderização, o framework chama de novo o método build() daquele widget, gerando uma nova árvore de widgets para aquele trecho da UI.
+
+4-) O Flutter compara (faz um diff) a árvore de widgets nova com a antiga através do algoritmo de reconciliação. Ele não recria tudo do zero, apenas os dados são atualizados na tela.
