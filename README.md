@@ -52,26 +52,26 @@ Descontos para clientes bem avaliados
 Pagamento via débito, crédito e PIX (taxa de 15% para a plataforma)
 Espaço para anúncios e parcerias comerciais
 
-Cronograma (resumo)
-
-Etapa	Início	Prazo	Responsável
-Análise de requisitos	03/02/2026	26/02/2026	Marcelo
-Cronograma, recursos e orçamento	03/03/2026	10/03/2026	Todos
-UX Design (Desk Research)	10/02/2026	24/03/2026	Todos
-Modelagem do Banco	23/03/2026	05/04/2026	Lucas
-UI Design (Protótipo)	22/03/2026	26/05/2026	Thiago
-Desenvolvimento Front-End	02/06/2026	23/11/2026	Thiago
-Apresentação do protótipo	23/06/2026	23/06/2026	Todos
-Desenvolvimento Back-End	20/07/2026	18/11/2026	Brayan
-Desenvolvimento do Banco de Dados	25/07/2026	15/11/2026	Lucas
-Testes de Software	22/10/2026	13/11/2026	Todos
-Implantação	20/11/2026	27/11/2026	Todos
-Apresentação final	01/12/2026	01/12/2026	Todos
-
-
 Recursos e tecnologias
 
-Software / Ferramentas Visual Studio Code · Windows 11 Home · Figma · Pacote Office 365 · Canva · MySQL Workbench · Git · GitHub · CSS · HTML · JavaScript · XAMPP · MySQL Server · ClickUp · Node.js · PlatformIO
+Software 
+Ferramentas Visual Studio Code 
+Windows 11 Home 
+Figma 
+Pacote Office 365  
+Canva  
+MySQL 
+Workbench 
+Git 
+GitHub 
+CSS 
+HTML 
+JavaScript 
+XAMPP 
+MySQL Server 
+ClickUp  
+Node.js  
+PlatformIO
 
 Recursos financeiros estimados
 
